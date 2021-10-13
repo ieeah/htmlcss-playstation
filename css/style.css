@@ -12,6 +12,11 @@
     .fsz_1rem {
         font-size: .75rem;
     }
+
+    /* borders */
+    .rounded_15 {
+        border-radius: 20px;
+    }
     /* colors */
         /* backgrounds */
         .bg_1 {
@@ -79,5 +84,15 @@
         height: 592px;
     }
 
-    .hero img{
+    /* games-list */
+    .games_list ul li {
+        list-style-type: none;
+    }
+
+    .box_outline:hover {
+        box-shadow: 0px 0px 2px 3px rgba(0, 0, 250, 0.5);
+    }
+
+    .no-border {
+        border: none;
     }
