@@ -1,20 +1,42 @@
 /* UTILITIES */
+
+    /* typo */
+    nav {
+        font-family: 'Helvetica', sans-serif ;
+    }
+
+    body {
+        font-family: 'Arial', sans-serif;
+    }
+
+    .fsz_1rem {
+        font-size: .75rem;
+    }
     /* colors */
         /* backgrounds */
         .bg_1 {
             background-color: black;
         }
-
+        .bg_2 {
+            background-color: #363636;
+        }
+        .bg_3 {
+            background-color: #cd3d0f;
+        }
 
 
     /* sizes */
-    .h_icon_1 {
-        height: 13px;
-    }
+        /* height */
+        .h_icon_1 {
+            height: 13px;
+        }
 
-    .w_nav_mps {
-        width: 140px;
-    }
+        /* width */
+        .w_fit {
+            width: fit-content;
+        }
+
+
 
 
     /* spacing */
@@ -22,15 +44,40 @@
         .py_11px {
             padding-block: 11px;
         }
+        .py_3px {
+            padding-block: 3px;
+        }
 
     /* buttons */
-    .btn_dark {
-        background-color: #363636;
+    .boo_btn {
         padding: 10px 14px;
+        font-weight: bold;
     }
+
+
+
+
 
     /* flex */
         /* positioning */
         .justify_self_end {
             justify-self: flex-end;
         }
+
+/* LAYOUT */
+    /* header */
+
+    .w_nav_mps {
+        width: 140px;
+    }
+
+    /* hero */
+    .hero {
+        background-image: url('../img/jumbo-bg.png');
+        background-size: cover;
+        background-position: center;
+        height: 592px;
+    }
+
+    .hero img{
+    }
