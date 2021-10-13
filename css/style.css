@@ -9,8 +9,8 @@
         font-family: 'Arial', sans-serif;
     }
 
-    .fsz_1rem {
-        font-size: .75rem;
+    .fsz_1 {
+        font-size: 2.5rem;
     }
 
     /* borders */
@@ -27,6 +27,9 @@
         }
         .bg_3 {
             background-color: #cd3d0f;
+        }
+        .bg_4 {
+            background-color: #2d64e6;
         }
 
 
@@ -95,4 +98,25 @@
 
     .no-border {
         border: none;
+    }
+
+    @media screen and (min-width:768px) {
+        .ps5_thumb {
+            transform: translateY(-50px);
+        }
+    }
+
+    @media screen and (min-width:992px) {
+        .ps5_thumb {
+            transform: translateY(-70px);
+        }
+    }
+
+    @media screen and (min-width:1200px) {
+        .no_limits {
+            margin-bottom: 100px;
+        }
+        .ps5_thumb {
+            transform: translateY(-100px);
+        }
     }
