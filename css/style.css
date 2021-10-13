@@ -12,9 +12,25 @@
         height: 13px;
     }
 
+    .w_nav_mps {
+        width: 140px;
+    }
+
 
     /* spacing */
         /* padding */
         .py_11px {
             padding-block: 11px;
+        }
+
+    /* buttons */
+    .btn_dark {
+        background-color: #363636;
+        padding: 10px 14px;
+    }
+
+    /* flex */
+        /* positioning */
+        .justify_self_end {
+            justify-self: flex-end;
         }
