@@ -1,5 +1,10 @@
 /* UTILITIES */
 
+    /* misc */
+.pointer:hover {
+    cursor: pointer;
+}
+
     /* typo */
     nav {
         font-family: 'Helvetica', sans-serif ;
@@ -44,8 +49,9 @@
             width: fit-content;
         }
 
-
-
+        .w_20 {
+            width: 20%;
+        }
 
     /* spacing */
         /* padding */
@@ -59,12 +65,9 @@
     /* buttons */
     .boo_btn {
         padding: 10px 14px;
-        font-weight: 550;
+        font-weight: bold;
+        cursor: pointer;
     }
-
-
-
-
 
     /* flex */
         /* positioning */
@@ -100,23 +103,30 @@
         border: none;
     }
 
+    /* this_ps5 */
+
+    .btm_brd {
+        border-bottom: 2px solid transparent;
+    }
+    .btm_brd:hover {
+        border-color: #2d64e6;
+    }
+
+    .opacity {
+        opacity: 0.65;
+    }
+
+    .opacity:hover {
+        opacity: 1;
+    }
+
+
+    /*************
+    RESPONSIVENESS
+    **************/
     @media screen and (min-width:768px) {
         .ps5_thumb {
             transform: translateY(-50px);
         }
     }
 
-    @media screen and (min-width:992px) {
-        .ps5_thumb {
-            transform: translateY(-70px);
-        }
-    }
-
-    @media screen and (min-width:1200px) {
-        .no_limits {
-            margin-bottom: 100px;
-        }
-        .ps5_thumb {
-            transform: translateY(-100px);
-        }
-    }
