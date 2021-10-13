@@ -90,6 +90,9 @@
     /* hero */
     .hero {
         background-image: url('../img/jumbo-bg.png');
+    }
+    .hero,
+    .take_two {
         background-size: cover;
         background-position: center;
         height: 592px;
@@ -125,6 +128,12 @@
         opacity: 1;
     }
 
+    /* take_two */
+    .take_two {
+        background-image: url('../img/it-takes-two-hero-banner-desktop.jpg');
+        background-position: center bottom;
+        background-size: cover;
+    }
 
     /*************
     RESPONSIVENESS
