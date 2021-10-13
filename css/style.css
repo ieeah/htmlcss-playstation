@@ -5,6 +5,8 @@
     cursor: pointer;
 }
 
+.obj_contain
+
     /* typo */
     nav {
         font-family: 'Helvetica', sans-serif ;
@@ -42,6 +44,9 @@
         /* height */
         .h_icon_1 {
             height: 13px;
+        }
+        .maxw_90 {
+            max-width: 90%;
         }
 
         /* width */
