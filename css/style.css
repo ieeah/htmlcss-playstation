@@ -29,7 +29,10 @@
         font-size: 1.4rem;
     }
     .fsz_4 {
-        font-size: 1rem;
+        font-size: 1.3rem;
+    }
+    .fsz_4_2 {
+        font-size: 1.1rem;
     }
     .fsz_5 {
         font-size: .75rem;
@@ -56,12 +59,21 @@
         .bg_5 {
             background-color: #1f1f1f;
         }
+        .bg_6 {
+            background-color: #bebcbb;
+        }
+        .bg_7 {
+            background-color: #d9dadc;
+        }
 
 
     /* sizes */
         /* height */
         .h_icon_1 {
             height: 13px;
+        }
+        .h-400px {
+            height: 400px;
         }
         .maxw_90 {
             max-width: 90%;
@@ -162,6 +174,12 @@
         left: -11px;
     }
 
+    /* ps_plus */
+    .ps_plus {
+        height: 400px;
+    }
+
+
     /*************
     RESPONSIVENESS
     **************/
@@ -170,4 +188,5 @@
             transform: translateY(-50px);
         }
     }
+
 
