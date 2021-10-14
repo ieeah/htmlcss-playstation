@@ -127,7 +127,6 @@
 
     .boo_btn:hover {
         transform: scale(0.93);
-        box-shadow: 0 0 0 2px 3px currentcolor;
     }
 
     .boo_btn.bg_2:hover {
@@ -140,7 +139,7 @@
         box-shadow: 0 0 0 2px white, 0 0 2px 3px #2d64e6;
     }
     .boo_btn.bg_7:hover {
-        box-shadow: 0 0 0 2px white, 0 0 2px 3px #d9dadc;
+        box-shadow: 0 0 0 2px #d9dadc, 0 0 0 4px currentColor;
     }
 
     /* flex */
@@ -235,6 +234,9 @@
     footer ul li a {
         color: white;
         text-decoration: none;
+    }
+    footer ul li a:hover {
+        color: cyan;
     }
 
     /*************
