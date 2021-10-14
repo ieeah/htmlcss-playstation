@@ -130,7 +130,7 @@
     .hero,
     .take_two {
         background-size: cover;
-        background-position: center;
+        background-position: top;
         height: 592px;
     }
 
