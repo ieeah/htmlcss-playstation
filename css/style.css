@@ -16,6 +16,10 @@
         font-family: 'Arial', sans-serif;
     }
 
+    .text_underline {
+        text-decoration: underline;
+    }
+
     .fsz_1 {
         font-size: 2.5rem;
     }
@@ -70,6 +74,9 @@
         }
         .bg_9 {
             background-color: white;
+        }
+        .bg_10 {
+            background-color: #00439c;
         }
 
 
@@ -221,6 +228,14 @@
         padding-inline: .75rem;
     }
 
+    /* footer */
+    footer ul li {
+        display: block;
+    }
+    footer ul li a {
+        color: white;
+        text-decoration: none;
+    }
 
     /*************
     RESPONSIVENESS
