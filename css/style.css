@@ -65,6 +65,9 @@
         .bg_7 {
             background-color: #d9dadc;
         }
+        .bg_8 {
+            background-color: #161c3b;
+        }
 
 
     /* sizes */
@@ -175,8 +178,12 @@
     }
 
     /* ps_plus */
-    .ps_plus {
-        height: 400px;
+    .ps_plus,
+    .ps_plus .d-md-block img,
+    .ps_now,
+    .ps_now .d-md-block img
+     {
+        height: 380px;
     }
 
 
