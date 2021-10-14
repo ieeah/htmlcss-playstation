@@ -68,6 +68,9 @@
         .bg_8 {
             background-color: #161c3b;
         }
+        .bg_9 {
+            background-color: white;
+        }
 
 
     /* sizes */
@@ -85,6 +88,7 @@
         /* width */
         .w_fit {
             width: fit-content;
+            width: -moz-fit-content;
         }
 
         .w_20 {
@@ -100,11 +104,36 @@
             padding-block: 3px;
         }
 
+        /* margin */
+        .mtop_100px {
+            margin-top: 100px;
+        }
+
     /* buttons */
     .boo_btn {
         padding: 10px 14px;
         font-weight: bold;
         cursor: pointer;
+        transition: all .15s ease-in-out;
+        
+    }
+
+    .boo_btn:hover {
+        transform: scale(0.93);
+        box-shadow: 0 0 0 2px 3px currentcolor;
+    }
+
+    .boo_btn.bg_2:hover {
+        box-shadow: 0 0 0 2px white, 0 0 2px 3px #363636;
+    }
+    .boo_btn.bg_3:hover {
+        box-shadow: 0 0 0 2px transparent, 0 0 2px 3px #cd3d0f;
+    }
+    .boo_btn.bg_4:hover {
+        box-shadow: 0 0 0 2px white, 0 0 2px 3px #2d64e6;
+    }
+    .boo_btn.bg_7:hover {
+        box-shadow: 0 0 0 2px white, 0 0 2px 3px #d9dadc;
     }
 
     /* flex */
