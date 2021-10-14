@@ -186,6 +186,12 @@
         height: 380px;
     }
 
+    /* socials */
+    .container_540px {
+        max-width: 540px;
+        padding-inline: .75rem;
+    }
+
 
     /*************
     RESPONSIVENESS
